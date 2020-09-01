@@ -77,7 +77,7 @@ function main () {
   colorDisplay.textContent = pickedColor;
 
   // refactored to one line
-  resetButton.addEventListener("click", reset());
+  resetButton.addEventListener("click", reset);
 
   // Mode modeButtons - refactoring of code
   modeButtons.forEach((button) => {
